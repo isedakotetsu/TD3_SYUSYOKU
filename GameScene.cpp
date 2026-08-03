@@ -27,9 +27,12 @@ void GameScene::Initialize()
 	//ボム
 	bomb_ = new Bomb();
 	Bombmodel_ = Model::CreateFromOBJ("bom");
+	
 
 	Vector3 bombPosition = { 0.0f, 0.0f, -40.0f };
 	bomb_->Initialize(Bombmodel_, bombPosition);
+
+
 
 }
 
